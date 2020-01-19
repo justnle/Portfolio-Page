@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background-color: #575435;
+}
+
+body {
+  position: relative;
+}
+
+#top-nav-links,
+#footer-container,
+.contact-info,
+.navigation-info,
+.about-me-info {
+  font-size: 14px;
+}
+
+.nav-link,
+.contact-info,
+.navigation-info,
+.about-me-info {
+  color: black;
+}
+
+.nav-link:hover,
+.contact-info:hover,
+.navigation-info:hover {
+  color: olive;
+  text-decoration: none;
+}
+
+#logo-name {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  background-color: olive;
+  color: white;
+  width: 40px;
+}
+
+#content-container {
+  /* min-height: 100%; */
+  padding-bottom: 0;
+}
+
+#bottom-nav-container {
+  background-color: #5c5947;
+}
+
+.footer-headers {
+  color: #ece9d6;
+}
+
+#copyright-container {
+  color: white;
+  background-color: #4d4d55;
+  height: 60px;
+  line-height: 60px;
+}
+
+#project-pictures-one {
+  background-color: #ece9d6;
+}
+
+#project-pictures-two {
+  background-color: #d8d3ae;
+}
+
+#project-pictures-three {
+  background-color: #c3bd87;
+}
+
+.project-pictures {
+  position: relative;
+}
+
+.img-hover {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.text-hover {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.project-pictures:hover .img-hover {
+  opacity: 0.3;
+}
+
+.project-pictures:hover .text-hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.project-description {
+    margin-bottom: 0;
+}
+
+#about-me-container {
+    color: #ece9d6;
+}
+
+#portfolio-container {
+    background-color: white;
+}
+

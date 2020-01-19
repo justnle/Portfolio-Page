@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Didact+Gothic|Work+Sans:400,500,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/53455dd245.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Justin Le | Full Stack Developer</title>
+  </head>
+  <body>
+    <div class="container vh-100" id="top-nav-container">
+      <nav class="navbar navbar-light" id="top-nav">
+        <a
+          class="navbar-brand text-center rounded-circle"
+          href="#"
+          id="logo-name"
+          >jl</a
+        >
+
+        <ul class="nav" id="top-nav-links">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me-container">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bottom-nav-container">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div
+        class="h-100 text-center d-flex align-items-center"
+        id="intro-container"
+      >
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h1 class="display-4">
+              Hello, I'm
+              <span class="font-weight-bold">Justin Le</span>, a full stack
+              developer with a passion for design.
+            </h1>
+            <p class="lead text-muted">
+              <i class="fas fa-map-pin px-2"></i>Seattle, WA
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="content-container">
+      <div class="row justify-content-center" id="about-me-container">
+        <div class="col-md-9 py-5">
+          <h1 class="font-weight-bold" id="about-me">ABOUT ME</h1>
+          <div class="row d-flex align-items-center">
+            <div class="col-md-4">
+              <img
+                src="https://via.placeholder.com/200x200"
+                class="rounded pt-3"
+                alt="profile-picture"
+              />
+            </div>
+            <div class="col-md-7">
+              <p class="pt-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                recusandae corrupti, ipsum facere, fuga amet debitis pariatur
+                molestiae incidunt dolorem molestias, beatae repellendus fugiat.
+                Iusto, facere voluptas! Accusamus, fugit quidem! Lorem ipsum
+                dolor sit amet consectetur, adipisicing elit. Hic voluptatibus
+                at, alias sapiente debitis odit a fugiat nobis ad dolorem
+                facilis suscipit similique, ipsum eligendi, officiis eveniet
+                adipisci tempora numquam? Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Cupiditate amet molestiae, nisi
+                consectetur dolorum dolor molestias deserunt quo sed suscipit
+                iusto ab cumque mollitia itaque veritatis nobis animi placeat
+                beatae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center" id="portfolio-container">
+        <div class="col-md-9" id="portfolio-content">
+          <h1 class="font-weight-bold pt-5" id="portfolio">PORTFOLIO</h1>
+          <div class="py-5" id="project-one">
+            <div class="project-pictures" id="project-pictures-one">
+              <a
+                href="https://agtravis.github.io/pocket-bartender/index.html"
+                target="_blank"
+                ><img
+                  src="https://github.com/twopcz/HW-4/raw/master/assets/images/quiz.png?raw=true"
+                  class="mx-auto d-block img-fluid img-hover"
+                  alt="project-one-pocket-bartender"
+              /></a>
+              <ul class="font-weight-bold list-inline text-hover">
+                <li class="list-inline-item">HTML5</li>
+                <li class="list-inline-item">CSS3</li>
+                <li class="list-inline-item">JAVASCRIPT</li>
+                <li class="list-inline-item">MATERIALIZE</li>
+              </ul>
+            </div>
+            <h4 class="pt-4 font-weight-bold">Pocket Bartender</h4>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+              reprehenderit laudantium quae blanditiis modi alias debitis eos
+              veniam consequuntur sapiente eaque enim ab ipsa explicabo
+              voluptatibus repudiandae consectetur atque voluptas.
+            </p>
+          </div>
+
+          <div class="py-5" id="project-two">
+            <div class="project-pictures" id="project-pictures-two">
+              <a href="https://twopcz.github.io/HW-6/" target="_blank"
+                ><img
+                  src="https://github.com/twopcz/HW-6/raw/master/assets/images/weather-dashboard.png?raw=true"
+                  class="mx-auto d-block img-fluid img-hover"
+                  alt="project-two-weather-dashboard"
+              /></a>
+              <ul class="font-weight-bold list-inline text-hover">
+                <li class="list-inline-item">HTML5</li>
+                <li class="list-inline-item">CSS3</li>
+                <li class="list-inline-item">JAVASCRIPT</li>
+                <li class="list-inline-item">JQUERY</li>
+                <li class="list-inline-item">BOOTSTRAP</li>
+                <li class="list-inline-item">AJAX</li>
+              </ul>
+            </div>
+            <h4 class="pt-4 font-weight-bold">Weather Dashboard</h4>
+            <p class="project-description">
+              A weather dashboard built using OpenWeatherMap's Current Weather
+              and 5 Day Forecast APIs. This web app can get the user's location
+              to display the corresponding weather, as well as allowing the user
+              to search a city and obtain the current weather/five day forecast.
+              Representative weather icons are also displayed for easier
+              information processing.
+            </p>
+          </div>
+
+          <div class="py-5" id="project-three">
+            <div class="project-pictures" id="project-pictures-three">
+              <a href="https://twopcz.github.io/HW-5/" target="_blank"
+                ><img
+                  src="assets/images/dayplanner.png"
+                  class="mx-auto d-block img-fluid img-hover"
+                  alt="project-3-day-planner"
+              /></a>
+              <ul class="font-weight-bold list-inline text-hover">
+                <li class="list-inline-item">HTML5</li>
+                <li class="list-inline-item">CSS3</li>
+                <li class="list-inline-item">JAVASCRIPT</li>
+                <li class="list-inline-item">JQUERY</li>
+                <li class="list-inline-item">BOOTSTRAP</li>
+              </ul>
+            </div>
+            <h4 class="pt-4 font-weight-bold">Day Planner</h4>
+            <p class="project-description pb-5">
+              A standard 0900 to 1700 work day planner that utilizes the
+              Moment.js library. This web app displays the hours in rows and
+              allows the user to save events to assist them in planning out
+              their day. The user can also schedule for future days and review
+              their schedules from the past, while the current day highlights
+              the current hour, placing emphasis on what events have passed and
+              which are upcoming.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-container">
+      <div class="d-flex py-5 justify-content-center" id="bottom-nav-container">
+        <div class="col-md-10 d-flex flex-row justify-content-around">
+          <div class="col-md-3">
+            <h5 class="font-weight-bold footer-headers">JUSTIN LE</h5>
+            <div>
+              <span class="about-me-info"
+                >A student of the University of Washington's Coding Boot Camp.
+                When I am not coding or designing, I also enjoy cooking, eating,
+                photography and sports!</span
+              >
+            </div>
+          </div>
+          <div class="col-md-3" id="navigation-info-container">
+            <h5 class="font-weight-bold footer-headers">NAVIGATION</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                + <a class="navigation-info" href="#top-nav">Home</a>
+              </li>
+              <li class="nav-item">
+                + <a class="navigation-info" href="#about-me-container">About Me</a>
+              </li>
+              <li class="nav-item">
+                + <a class="navigation-info" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                + <a class="navigation-info" href="#">Resume</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 d-flex flex-column" id="contact-info-container">
+            <h5 class="font-weight-bold footer-headers">CONTACT</h5>
+            <div class="pb-3">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:jle@me.com" target="_blank" class="contact-info">jle@me.com</a>
+            </div>
+            <h5 class="font-weight-bold footer-headers">CONNECT</h5>
+            <div>
+              <i class="fab fa-github-alt"></i>
+              <a href="https://github.com/twopcz" class="contact-info">GitHub</a>
+            </div>
+            <div>
+              <i class="fab fa-linkedin"></i>
+              <a href="https://linkedin.com/notme" class="contact-info">Linkedin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer text-center" id="copyright-container">
+        <div class="container">
+          <span>Copyright &copy; 2020 <b>|</b> handcrafted by me</span>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

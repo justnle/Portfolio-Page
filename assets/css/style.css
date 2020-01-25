@@ -42,6 +42,11 @@ body {
   width: 40px;
 }
 
+#top-nav-container {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
 #content-container {
   /* min-height: 100%; */
   padding-bottom: 0;

@@ -5,6 +5,7 @@ body {
 
 html {
   background-color: #575435;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -108,6 +109,10 @@ body {
 
 #about-me-container {
     color: #ece9d6;
+}
+
+.bio {
+  word-wrap: break-word;
 }
 
 #portfolio-container {
